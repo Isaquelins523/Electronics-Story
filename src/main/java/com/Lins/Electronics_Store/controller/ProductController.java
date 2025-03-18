@@ -1,8 +1,8 @@
 package com.Lins.Electronics_Store.controller;
 
-import com.Lins.Electronics_Store.domain.Product;
-import com.Lins.Electronics_Store.domain.ProductRepository;
-import com.Lins.Electronics_Store.domain.ProductRequest;
+import com.Lins.Electronics_Store.domain.product.Product;
+import com.Lins.Electronics_Store.repositories.ProductRepository;
+import com.Lins.Electronics_Store.requests.ProductRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/electronics")
+@RequestMapping("/products")
 public class ProductController {
 
     @Autowired

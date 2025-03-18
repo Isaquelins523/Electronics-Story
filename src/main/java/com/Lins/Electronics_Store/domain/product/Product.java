@@ -1,5 +1,6 @@
-package com.Lins.Electronics_Store.domain;
+package com.Lins.Electronics_Store.domain.product;
 
+import com.Lins.Electronics_Store.requests.ProductRequest;
 import jakarta.persistence.*;
 import lombok.*;
 
